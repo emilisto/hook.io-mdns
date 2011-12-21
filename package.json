@@ -1,0 +1,27 @@
+{
+    "name": "hook.io-mdns",
+    "description": "Advertise and discover your hook.io's through mDNS",
+    "version": "0.0.1",
+    "author": "Emil Stenqvist <emsten@gmail.com>",
+    "contributors": [
+      {
+        "name" : "Emil Stenqvist",
+        "email" : "emsten@gmail.com"
+      }
+    ],
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/emilisto/hook.io-mdns"
+    },
+    "bin": {
+      "hookio-irc": "bin/start"
+    },
+    "main": "./lib/mdns",
+    "dependencies": {
+       "hook.io": "0.8.x",
+       "mdns": "0.0.3"
+    }, 
+    "engine": [
+        "node 0.4.x"
+    ]
+}
