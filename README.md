@@ -11,15 +11,22 @@ now discover hooks on nearby machines. Sweet isn't it?
 ## Installation
 
 Because of a problem with the `mdns` npm package, it must be installed
-manually.
+manually through my own fork.
 
 
-     git clone git@github.com:agnat/node_mdns.git
-		 cd node_mdns && npm install
+     git clone git@github.com:emilisto/node_mdns.git
+		 cd node_mdns && npm install -g
+		 
 
      git clone git@github.com:emsten/hook.io-mdns.git
      cd hook.io-mdns
-     npm install
+     npm install -g
+
+The `-g` flags can prolly be dropped, haven't gotten my head around this
+infinitely complicated `npm` thing just yet, skills are to come.
+
+Now the magic part!
+
      node bin/start
 
 Run this on machine #1, and then on another machine #2. Notice how #2
