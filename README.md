@@ -34,3 +34,9 @@ Run this on machine #1, and then on another machine #2. Notice how #2
 discovers and connects to #1. To see the magic, close both and run
 `node bin/start` in opposite order and see how #2 now takes the role
 as listener and #1 connects to #2.
+
+## Todo
+
+* Support finding multiple hooks through some choosing/prioritization mechanism
+* Make it possible for one hook to take over the role as listener if the listener host goes down. Look into how hook.io handles this with locally discovered hooks.
+* A cool example app
