@@ -15,8 +15,9 @@ manually through my own fork.
 
 
      git clone git@github.com:emilisto/node_mdns.git
-		 cd node_mdns && npm install -g
-		 
+     cd node_mdns && npm install -g
+
+And then
 
      git clone git@github.com:emilisto/hook.io-mdns.git
      cd hook.io-mdns && npm install -g
