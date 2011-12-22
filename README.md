@@ -10,6 +10,13 @@ now discover hooks on nearby machines. Sweet isn't it?
 
 ## Installation
 
+Because of a problem with the `mdns` npm package, it must be installed
+manually.
+
+
+     git clone git@github.com:agnat/node_mdns.git
+		 cd node_mdns && npm install
+
      git clone git@github.com:emsten/hook.io-mdns.git
      cd hook.io-mdns
      npm install

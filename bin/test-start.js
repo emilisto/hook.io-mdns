@@ -1,4 +1,4 @@
-var mDNSHook = require('./mDNSHook').mDNSHook;
+var mDNSHook = require('hook.io-mdns').mDNSHook;
 
 var hook = new mDNSHook({
   name: 'sample-mdns-hook'

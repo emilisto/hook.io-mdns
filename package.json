@@ -14,12 +14,11 @@
         "url": "https://github.com/emilisto/hook.io-mdns"
     },
     "bin": {
-      "hookio-irc": "bin/start"
+      "hookio-mdns": "bin/test-start.js"
     },
     "main": "./lib/mdns",
     "dependencies": {
-       "hook.io": "0.8.x",
-       "mdns": "0.0.3"
+       "hook.io": "0.8.x"
     }, 
     "engine": [
         "node 0.4.x"
