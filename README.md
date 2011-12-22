@@ -21,8 +21,9 @@ manually through my own fork.
      git clone git@github.com:emilisto/hook.io-mdns.git
      cd hook.io-mdns && npm install -g
 
-(The `-g` flags can prolly be dropped, haven't gotten my head around this
-infinitely complicated `npm` thing just yet, skills are to come.)
+( The `-g` flags can prolly be dropped if your NODE_PATH is setup properly, 
+haven't gotten my head around this infinitely complicated `npm` thing just 
+yet, skills are to come. )
 
 Now the magic part!
 
