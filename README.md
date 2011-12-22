@@ -35,6 +35,9 @@ discovers and connects to #1. To see the magic, close both and run
 `node bin/start` in opposite order and see how #2 now takes the role
 as listener and #1 connects to #2.
 
+This is just how one's used to hook.io working locally, but now it works
+across machines. Imagine the awesomeness possible.
+
 ## Todo
 
 * Support finding multiple hooks through some choosing/prioritization mechanism
